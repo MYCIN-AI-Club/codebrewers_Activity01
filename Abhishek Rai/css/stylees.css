@@ -1,0 +1,113 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+. {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Top Border */
+a:hover {
+  text-decoration: none;
+}
+
+#header {
+  color: white;
+  background-color: #3C4048;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  color: #fff;
+  padding: 15px 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  fon
+}
+
+#menu li a:hover {
+  background-color: #57606f;
+}
+
+#logo {
+  margin-top: 5px;
+}
+
+/* Search Bar */
+#searchbar ul li {
+  padding-right: 20px;
+}
+
+.notification {
+  margin: auto;
+}
+
+/* Main Section */
+#sell {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  font-style: Ubuntu;
+  margin-bottom: 0rem;
+  background: rgb(209, 209, 219);
+  background: linear-gradient(90deg, rgba(209, 209, 219, 1) 31%, rgba(200, 193, 193, 1) 48%, rgba(95, 115, 119, 1) 100%);
+}
+
+.rule {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  /* margin: 100px auto; */
+}
+
+#buy {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  margin-top: 0rem;
+  font-style: Ubuntu;
+  background: rgb(95, 115, 119);
+  background: linear-gradient(90deg, rgba(95, 115, 119, 1) 6%, rgba(200, 193, 193, 1) 67%, rgba(209, 209, 219, 1) 95%);
+}
+
+.d-flex {
+  margin-left: 20rem;
+}
+
+.icon {
+  width: 5%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#categories {
+  margin-top: 1rem;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 10px;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
