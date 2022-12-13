@@ -1,0 +1,41 @@
+.mob-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+.mob-nav div{
+    /* margin: auto; */
+    /* width: 30%; */
+    text-align: right;
+    display: block;
+    width: 60%;
+}
+.mob-nav div img{
+    width: 15%;
+    height: 15%;
+}
+
+.mob-nav-bar {
+    list-style: none;
+    font-weight: medium;
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 1rem;
+    font-family: 'Kanit', sans-serif;
+    width: 40%;
+    justify-content: center;
+} 
+
+.mob-nav a:hover, .mob-nav-bar li a:hover {
+    cursor: pointer;
+}
+
+.mob-nav a,.mob-nav-bar li a:visited,.mob-nav-bar li a:active, .mob-nav-bar li a:link{
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: medium;
+}
