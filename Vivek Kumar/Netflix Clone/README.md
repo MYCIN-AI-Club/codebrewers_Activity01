@@ -1,6 +1,6 @@
 # Netflix Clone
 
-Create a personal website using HTML and CSS
+Create a personal clone website using HTML and CSS
 
 ## Deployment
 
