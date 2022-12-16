@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: #a18a8a;
+    opacity: 0.9;
+} */
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /* left: 0px; */
+    font-family: 'Baloo 2', cursive;
+}
+.navbar::before{
+    content: "";
+    background-color: grey;
+    position: absolute;
+    height: 93px;
+    width: 1349px;
+    opacity: 0.8;
+    color: black;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px;
+    margin: 16px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.navbar ul li a:hover{
+   background-color: gray;
+   color: black;
+}
+
+.logo img{
+    height: 82px;
+    width: 104px;
+    padding: 4px;
+}
+/* Home Section  */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 186px;
+}
+.home::before{
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url('img/bed.jpeg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+    margin: 11px;
+    padding: 12px;
+    /* opacity: 0.7; */
+}
+.home button{
+    padding: 5px;
+    border-radius: 17px;
+    margin: 10px;
+}
+
+/* utilaty class */
+.hprimary{
+    margin: 2px;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    padding: 32px;
+    margin-top: 210px;
+    font-size: 3rem;
+    font-family: 'Baloo 2', cursive;
+}
+.hcenter{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+.fac{
+    font-size: 1.3rem;
+
+}
+
+/* Facility section */
+.facility{
+    margin-top: 50px;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center2{
+    text-align: center;
+    padding: 32px;
+    margin-top: 67px;
+    font-size: 3rem;
+    font-family: 'Baloo 2', cursive;
+}
+#services .box{
+    background: rgb(219 209 209);
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 5px;
+}
+.box img{
+
+    display: block;
+    margin: auto;
+    padding: 12px;
+    height: 126px;
+    width: 206px;
+}
+/* faculity */
+.faculity{
+    margin-top: 20px;
+}
+#member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#member .box{
+    background: rgb(219 209 209);
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 5px;
+}
