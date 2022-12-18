@@ -1,0 +1,104 @@
+.heading{
+    display: inline-block;
+  }
+  div.heading {
+    margin-left: 15rem;
+  }
+  .form-box{
+      padding: 5rem 35rem;
+      
+  }
+  form {
+      border: 3px solid #f1f1f1;
+  
+    }
+  
+  .inphone{
+      display: flex;
+      border: 1px solid #ccc;
+      padding: 0px 15px;
+      border-radius: 10px;
+      margin: 15px 0px;
+  }
+  .inphone div{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+  }
+  
+    /* Full-width inputs */
+    input[type=text] {
+      width: 100%;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      /* font-size: 1rem; */
+      /* display: inline-block; */
+      outline: none;
+      box-sizing: border-box;
+    }
+    
+    .terms{
+        color:rgb(239, 79, 95);
+        cursor: pointer;
+    }
+    /* Set a style for all buttons */
+    .in-btn{
+      background-color: rgb(239, 79, 95);
+      color: white;
+      padding: 14px 20px;
+      margin: 15px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 10px;
+    }
+    
+    /* Add a hover effect for buttons */
+    .in-btn:hover {
+      opacity: 0.8;
+    }
+    
+    .container {
+      padding: 10px 15px;
+    }
+  
+  .seperation{
+      border-bottom:rgb(232, 232, 232);
+      margin: 1px 20px;
+  }
+  
+  .sign-btn{
+    width:100%;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    border: 1px solid rgb(207, 207, 207);
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    margin: 8px 1px;
+    padding: 14px 20px;
+    color: rgb(105, 105, 105);
+    font-size: 1rem;
+  }
+  .fa-envelope,.fa-google{
+    color:red;
+    margin-right: 5px;
+  }
+  .account{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 5px;
+  }
+  .account p{
+    color: rgb(54, 54, 54);
+  }
+  .account a:link,.account a:hover,.account a:active,.account a:visited{
+      text-decoration: none;
+      color: rgb(239, 79, 95);
+  }
+  
+    
