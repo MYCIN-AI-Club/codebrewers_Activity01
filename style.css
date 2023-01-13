@@ -1,0 +1,154 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 1px 20px;
+}
+.p{
+    text-align: center;
+}
+.container {
+    max-width: 80px;
+    margin: initial;
+}
+
+nav ul li {
+    list-style: none;
+    flex: 1;
+    margin-left: 10px;
+    padding: 1px 10px;
+}
+
+nav div img {
+    width: auto;
+    height: 27px;
+    padding: 0px 20px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* overflow-y:hidden; */
+    overflow-x: hidden;
+}
+
+space-between {
+    justify-content: space-between;
+}
+
+.section1 {
+    background-color: rgb(15, 127, 238);
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 1%;
+}
+
+.right {
+    margin-left: 300px;
+    font-size: 15px;
+}
+
+body img {
+    width: auto;
+    height: 480px;
+}
+
+/* .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+} */
+
+.img-size {
+    width: auto;
+    height: 50px;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+}
+
+div b {
+    text-align: center;
+    font-size: 30px;
+
+    ;
+}
+
+div pre {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .for-images{
+    height: 2px;
+    width: auto;
+} */
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.top-right {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+div h1{
+    font-size: 276%;
+    font-family: inherit;
+}
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px 16px;
+    cursor: pointer;
+  }
+  .button1{
+    background-color: rgb(74, 74, 253);
+    width: 41%;
+  }
+  .button1:hover{
+    background-color: rgb(23, 23, 216);
+  }
+  div p{
+    font-size: 135%;
+  }
+  .right2{
+    margin: 0%;
+    font-size: 40;
+  }
+  body div ul img{
+    height: auto;
+    width:65px;
+    list-style:disc;
+    padding: 0.5%;
+  }
+
+  
