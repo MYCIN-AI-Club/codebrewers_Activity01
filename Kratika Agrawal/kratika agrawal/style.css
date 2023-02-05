@@ -1,0 +1,173 @@
+body{
+    text-size-adjust: 100%;
+    font-family: 'Manrope',sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    height: 80px;
+    background-attachment: fixed;
+}
+header{
+    height: 80px;
+}
+nav ul{
+    overflow:auto;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0 5px;
+}
+nav li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    color: gray;
+    transition: .3s;
+}
+.menu{
+    display: none;
+}
+nav ul li:hover .menu{
+    display: block;
+    position: absolute;
+}
+.menu ul{
+    background-color: white;
+    width: 160px;
+    line-height: 5px;
+}
+.menu ul li{
+    width: 150px;
+}
+label.logo{
+    color: #000000;
+    font-weight: 400;
+    background-color: white;
+    font-size: 25px;
+    line-height: 80px;
+    float: left;
+    margin: 0 30px;
+}
+#checkbtn{
+    float:right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    right: 0;
+}
+.container{
+    background-color:#757575;
+    height: 625px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin:0px;
+    border: 0;
+    padding: 0;
+}
+@media(max-width: 895px){
+    #checkbtn{
+        display: block;
+    }
+    nav ul{
+        width: 35%;
+        height: 100vh;
+        background: white;
+        position: fixed;
+        right: -100%;
+        transition: .5s;
+        margin-top: 80px;
+        padding-top: 40px;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+@media(max-width: 446px)
+{
+    .shop{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+.items img{
+    max-width: 90%;
+    float: right;
+}
+.shop{
+    padding-top: 150px;
+} 
+.shop div{
+    font-size: 70px;
+    color: white;
+    line-height: 60px;
+    width: 100%;
+    /* box-sizing: border-box; */
+    padding: 10px 30px;
+}
+@media (max-width: 767px)
+{
+    .shop{
+        text-align: center;
+    }
+}
+.glass{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.text{
+    margin: 50px;
+    font-size: 50px;
+    text-align: center;
+    /* font-style: normal; */
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    font-size: 1.7rem; 
+    /* margin: 70px 30px; */
+    /* padding: 40px 180px; */
+    margin: 5% 20%;
+    font-weight: 200;
+}
+/* .text div{
+        color: gray;
+} */
+.fitems{
+    margin: 30px;
+    display: flex;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    flex-wrap: nowrap;
+    /* justify-content:space-between;
+    flex-flow: column wrap;
+    width: 100vh; */
+}
+.fitems div{
+    justify-content: space-between;
+    flex-direction: column;
+}
