@@ -1,12 +1,6 @@
-# Netflix Clone
+# Projects
 
-Create a personal website
+Netflix Clone, Zomato clone, Portfolio
 
-## 🛠 Languages
-HTML, CSS
-
-## Deployment
-
-How it looks...
-
--  [Netflix-Clone](https://vivek-00101.github.io/netflixcloning.github.io/)
+Creating the projects using
+HTML, CSS, JS
