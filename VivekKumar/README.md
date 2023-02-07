@@ -4,5 +4,5 @@ Netflix Clone, Zomato clone, Portfolio
 # Simple Calculator
 
 
-Creating a simple projects using ## 🛠 Language
+Creating the projects using
 HTML, CSS, JS
