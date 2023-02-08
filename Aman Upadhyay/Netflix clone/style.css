@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins",sans-serif;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   padding: 3% 5%;
+   z-index: 10;
+}
+.navbar_netflix{
+    width: 125px;
+    height: 100%;
+}
+.navbar_nav_items{
+    display: flex;
+    gap: 10px;
+}
+.netflix_logo{
+    width: 100%;
+    height: 100%;
+    
+}
+.language_drop_down{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.dropdown_container{
+    border: 1px solid white;
+    padding:0.4rem;
+    border-radius: 4px; 
+    background:rgba(0, 0,0, 0.4) ;
+}
+.signin_button{
+    border:#dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
